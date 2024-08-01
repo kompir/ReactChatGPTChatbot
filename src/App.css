@@ -1,8 +1,16 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-y: scroll;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh; /* Set the height to 100vh */
+  display: flex;
+  flex-direction: column;
 }
 
 .logo {
